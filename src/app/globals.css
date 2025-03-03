@@ -2,13 +2,194 @@
 
 * {
   font-family: "Sarabun", sans-serif;
+  list-style-type: none;
+  text-decoration: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
 .franklin {
   font-family: "Franklin Gothic Heavy", sans-serif;
 }
 
+.max-w-extra {
+  max-width: 912px !important;
+}
+
+.max-w-extra-large {
+  max-width: 1920px;
+}
+
+.gap-sm {
+  gap: 18px;
+}
+
+.pb-xxxl {
+  padding-bottom: 140px !important;
+}
+
+.pt-xxxl {
+  padding-top: 195px !important;
+}
+
+.dark-gray {
+  background-color: #1C2430;
+}
+
+.custom-blue {
+  color: #3586FF !important;
+}
+
+.custom-light {
+  color: #D4E5FF !important;
+}
+
+.light-sky {
+  background-color: #245AAB !important;
+}
+
+.border-custom-blue {
+  border: 1px solid #3586FF !important;
+  width: 164px;
+}
+
+.text-4xl {
+  font-size: 50px !important;
+  line-height: 72px !important;
+}
+
+.my-button:hover {
+  background-color: black !important;
+  transition: all 200ms linear !important;
+}
+
+.link:hover {
+  color: #3586FF !important;
+  transition: all 200ms linear !important;
+}
+
+.icon:hover svg {
+  fill: #3586FF !important;
+  transition: all 200ms linear !important;
+}
+
+.size-lg-xxl {
+  height: 400px;
+  width: 400px;
+}
+
+.size-xl {
+  height: 54px;
+  width: 230px;
+}
+
 @font-face {
   font-family: "Franklin Gothic Heavy";
   src: url("/public/assets/fonts/Franklin\ Gothic\ Heavy\ Regular.ttf") format(trueType);
+}
+
+@media (min-width:640px) {
+  .gap-md {
+    gap: 32px !important;
+  }
+}
+
+@media (min-width:770px) {
+  .pt-md {
+    padding-top: 29px !important;
+  }
+
+  .size-xl {
+    height: 83px;
+    width: 424px;
+  }
+
+  .max-w-large {
+    max-width: 502px !important;
+  }
+
+  .size-lg {
+    height: 200px;
+    width: 140px;
+  }
+}
+
+@media (min-width:1025px) {
+  .text-lg-5xl {
+    font-size: 64px !important;
+    line-height: 72px !important;
+  }
+
+  .pt-lg-xs {
+    padding-top: 11px !important;
+  }
+
+  .pb-lg-xxl {
+    padding-bottom: 43px !important;
+  }
+
+  .size-lg-xxl {
+    height: 557px;
+    width: 557px;
+  }
+
+  .size-lg {
+    height: 280px;
+    width: 211px;
+  }
+}
+
+@media (max-width:849.99px) {
+  .d-custom-none {
+    display: none;
+  }
+
+  .pb-xxxl {
+    padding-bottom: 80px !important;
+  }
+
+  .pt-xxxl {
+    padding-top: 120px !important;
+  }
+}
+
+@media (max-width:769.99px) {
+  .pt-md {
+    padding-top: 16px !important;
+  }
+
+  .pb-xxxl {
+    padding-bottom: 60px !important;
+  }
+
+  .pt-xxxl {
+    padding-top: 70px !important;
+  }
+}
+
+@media (max-width:639.99px) {
+  .text-xs {
+    font-size: 14px !important;
+  }
+
+  .gap-sm {
+    gap: 12px;
+  }
+
+  .size-xl {
+    height: 44px;
+    width: 140px;
+  }
+
+  .pt-md {
+    padding-top: 8px !important;
+  }
+
+  .gap-md {
+    gap: 12px !important;
+  }
+
+  .border-custom-blue {
+    width: 80px;
+  }
 }
