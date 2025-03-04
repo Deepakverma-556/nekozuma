@@ -4,7 +4,7 @@ import React from 'react'
 import Marquee from "react-fast-marquee";
 const MySlider = () => {
   return (
-    <div>
+    <div id='overview'>
       <Marquee direction="left">
         {FIRST_SLIDER_LIST.map((obj, i) => (
           <Image className='pe-none size-base' key={i} height={320} width={320} src={obj.image} alt={obj.imgAlt} />

@@ -8,6 +8,11 @@
   margin: 0 !important;
 }
 
+html,
+body {
+  scroll-behavior: smooth;
+}
+
 .franklin {
   font-family: "Franklin Gothic Heavy", sans-serif;
 }

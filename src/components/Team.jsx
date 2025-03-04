@@ -7,7 +7,7 @@ import { Twitter } from '@/utils/icons'
 
 const Team = () => {
   return (
-    <div className='dark-gray pt-5 pb-5'>
+    <div id='team' className='dark-gray pt-5 pb-5'>
       <div className='container mx-auto max-w-extra px-3 mt-3 pb-3'>
         <div className='border-custom-blue mx-auto'></div>
         <Heading text={'Team'} myClass={'pt-xl-5 mt-xl-2 pt-4'} />
