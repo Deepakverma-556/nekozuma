@@ -12,6 +12,10 @@
   font-family: "Franklin Gothic Heavy", sans-serif;
 }
 
+.max-w-lg {
+  max-width: 888px !important;
+}
+
 .max-w-extra {
   max-width: 912px !important;
 }
@@ -30,6 +34,10 @@
 
 .pt-xxxl {
   padding-top: 195px !important;
+}
+
+.text-custom-xs{
+  font-size: 14px !important;
 }
 
 .dark-gray {
@@ -137,6 +145,18 @@
     height: 280px;
     width: 211px;
   }
+
+  .size-base {
+    height: 320px;
+    width: 320px;
+  }
+  .text-3xl{
+    font-size: 43px;
+    line-height: 48.75px;
+  }
+  .h-base{
+    height: 357px;
+  }
 }
 
 @media (max-width:849.99px) {
@@ -150,6 +170,11 @@
 
   .pt-xxxl {
     padding-top: 120px !important;
+  }
+
+  .size-base {
+    height: 250px;
+    width: 250px;
   }
 }
 
@@ -165,6 +190,14 @@
   .pt-xxxl {
     padding-top: 70px !important;
   }
+
+  .size-base {
+    height: 180px;
+    width: 180px;
+  }
+    .h-base {
+      height: 300px;
+    }
 }
 
 @media (max-width:639.99px) {
@@ -192,4 +225,12 @@
   .border-custom-blue {
     width: 80px;
   }
+
+  .size-base {
+    height: 130px;
+    width: 130px;
+  }
+    .h-base {
+      height: 200px;
+    }
 }
