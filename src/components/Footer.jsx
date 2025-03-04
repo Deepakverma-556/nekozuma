@@ -9,7 +9,7 @@ const Footer = () => {
       <Link href="/" className='text-white text-center franklin title d-flex mx-auto max-w-max'>NEKOZUMA</Link>
       <div className='d-flex gap-4 pt-md-4 pt-2 justify-content-center'>
         {SOCIAL_ICON_LIST.map((obj, i) => (
-          <Link className='my-icon' target='blank' key={i} href={obj.link}>{obj.icon}</Link>
+          <Link className='icon' target='blank' key={i} href={obj.link}>{obj.icon}</Link>
         ))}
       </div>
       <Image src={'/assets/images/png/left-lighting.png'} alt='left-lighting' width={500} height={150} className='position-absolute lightning pe-none bottom-0 left-0' />

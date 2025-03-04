@@ -106,12 +106,7 @@ body {
 }
 
 .icon:hover svg {
-  fill: #3586FF !important;
-  transition: all 200ms linear !important;
-}
-
-.my-icon:hover svg {
-  fill: black !important;
+  scale: 1.3 !important;
   transition: all 200ms linear !important;
 }
 
