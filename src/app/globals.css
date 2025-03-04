@@ -105,6 +105,11 @@ body {
   transition: all 200ms linear !important;
 }
 
+.my-icon:hover svg {
+  fill: black !important;
+  transition: all 200ms linear !important;
+}
+
 .size-lg-xxl {
   height: 400px;
   width: 400px;
